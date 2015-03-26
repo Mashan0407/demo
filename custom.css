@@ -1,3 +1,9 @@
+p {
+    font-weight: 400;
+}
+.orange {
+    color: rgba(29.02, -117.96, -112.94);
+}
 #bg-image {
     background-image: url(http://www.hdwallpapers3d.co/wp-content/uploads/2014/05/Computer-Background-Wallpapers-Ideas-Creative-Digital.jpg);
     height: 100vh;
