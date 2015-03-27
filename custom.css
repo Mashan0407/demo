@@ -1,14 +1,53 @@
 p {
     font-weight: 400;
 }
+
 .orange {
-    color: rgba(29.02, -117.96, -112.94);
+    color: lawngreen;
 }
+
+/*************navbar and taglin**************/
+
+.navbar {
+    position: absolute;
+    z-index: 10000;
+    background-color: transparent;
+    border: none;
+    right: 0;
+    padding: 1em;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    border-bottom: solid 2px  lawngreen;
+    padding-bottom: 4px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: lawngreen;
+}
+#tagline{
+    position: absolute;
+    width: 100vw;
+    padding: 5em;
+    z-index: 100;
+}
+/*************landing page***************/
+
+
 #bg-image {
+    margin: 15px 0;
     background-image: url(http://www.hdwallpapers3d.co/wp-content/uploads/2014/05/Computer-Background-Wallpapers-Ideas-Creative-Digital.jpg);
     height: 100vh;
     background-size: cover;
 }
-#bg-text {
-    background-color: rgba(23, 20, 66, 0.3);
+
+
+/****************work page***************/
+#work #myCarousel{
+    height: 100vh;
+    overflow: hidden;
+}
+
+#work #myCarousel img{
+    width: 100vw;
 }
