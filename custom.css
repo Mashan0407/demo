@@ -51,3 +51,15 @@ p {
 #work #myCarousel img{
     width: 100vw;
 }
+
+/*********************contact page**************/
+.address{
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+}
+#contact{
+    background-color: rgb(239,241,233)	;
+    
+    
+}
