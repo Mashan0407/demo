@@ -50,8 +50,8 @@ p {
 #work .hide-title>h5 {
     opacity: 0;
     position: absolute;
-    top: 45%;
-    left: 38%;
+    bottom: 10%;
+    right: 10%;
     color: black;
     font-size: 1.5em;
 }
