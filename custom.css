@@ -33,7 +33,10 @@ p {
     z-index: 100;
 }
 /*************landing page***************/
-
+#landing {
+    z-index: 100000;
+    position: absolute;
+}
 #bg-image {
     margin: 15px 0;
     background-image: url(http://www.hdwallpapers3d.co/wp-content/uploads/2014/05/Computer-Background-Wallpapers-Ideas-Creative-Digital.jpg);
@@ -103,6 +106,15 @@ p {
 #work #portfolio>div {
     padding-right: 0;
 }
+/********************about page****************/
+.bg-azure {
+    margin: 0 auto;
+    padding-top: 25px;
+    height: 100px;
+    width: 250px;
+    background: azure;
+}
+
 /*********************contact page**************/
 
 .address {
