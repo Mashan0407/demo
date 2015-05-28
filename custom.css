@@ -3,7 +3,7 @@ p {
 }
 
 .orange {
-    color: lawngreen;
+    color: rgb(124, 252, 0);
 }
 /*************navbar and taglin**************/
 
@@ -107,6 +107,9 @@ p {
     padding-right: 0;
 }
 /********************about page****************/
+#myP5Container {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUURdnWmgSMU2uDByJLkHEUt5aR8BQzJD--sjU-pHbH6xZs91u");
+}
 .bg-azure {
     margin: 0 auto;
     padding-top: 25px;
@@ -117,6 +120,9 @@ p {
 
 /*********************contact page**************/
 
+#contact-page-anim {
+    position: absolute;
+}
 .address {
     position: relative;
     margin-top: 200px;

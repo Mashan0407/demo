@@ -12,6 +12,4 @@ function draw() {
 
 function mouseClicked() {
     ellipse(mouseX, mouseY, 80, 80);
-       
-
 }
