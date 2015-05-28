@@ -1,49 +1,74 @@
-<!Doctype html>
 <html>
 
 <head>
-    <!Doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <!--Support of foreigh character-->
+    <meta charset="utf-8">
+    <!--IE Compatibility Setting, "IE=Edge ensures IE uses the latest rendering engine-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Get physical width of the movile device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Name of your website displayed on the browser tab-->
+    <title>Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="custom.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.4/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.4/addons/p5.dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.4/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.4/addons/p5.sound.min.js"></script>
+</head>
+<div class="row">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <title>Weddingluda</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-        <meta http-equiv="Content-Type" content="text/html; charset=геа-8" />
-        
-    </head>
-    <body class="bkd">
-        <!--Header Navigation-->
-        <header class="clearfix">
-            <nav role="navigation" style="text-align:center;">
-                <ul id="js-site-menu" class="site-menu" style="display:inline-block; ">
-
-                    <li><a class="header" href="index.html"> Home</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="work.html">work</a>
                     </li>
-                    <li><a class="header" href="story.html"> Our Story</a>
+                    <li><a href="about.html">about</a>
                     </li>
-                    <li><a class="header" href="photo.html"> Photo</a>
-                    </li>
-                    <li><a class="header" href="wedding.html"> Wedding</a>
-                    </li>
-                    <li><a class="header" href="B_and_G.html"> Bridesmaids & Groomsman </a>
+                    <li><a href="contact.html">contact</a>
                     </li>
                 </ul>
-                <!--------mobile menu-------->
-                <a href="#" id="js-menu-icon" class="menu-icon"><img src="menu-icon.svg" />
-                </a>
-            </nav>
-        </header>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</div>
+<div class="row text-center" id="tagline">
+    <a href="/"><h1 class="orange">Healthy life</h1></a>
+    <p><span class="orange">An Apple</span> a Day Isn't Enough.</p>
+</div>
 
-        <!--Footer-->
-        <footer>
-            <p>Posted by: MashAn</p>
-            <a class="email" href="mashan04.07@gmail.com">Contact me</a>
-        </footer>
-        <script src="js/jquery-1.11.2.min.js"></script>
-        <script src="js/mobile-menu.js"></script>
-    </body>
+<body>
+    <div id="landing">
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center" id="bg-image">
 
-    </html>
+        </div>
+    </div>
+
+
+    </div>
+</body>
+
+<script src="landing.js"></script>
+
+</html>
